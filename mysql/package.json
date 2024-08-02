@@ -1,0 +1,15 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "<!-- install image mysql -->\r docker pull mysql\r <!-- check docker pull -->\r docker images\r <!-- create container -->",
+  "main": "test.connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.11.0"
+  }
+}
